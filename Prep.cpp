@@ -17,6 +17,7 @@ void Prep::PreProc(const std::string& filename) {
             getline(fin, line);
             auto vec = split(line, " ");
             if (vec[0] == "#endif") {
+                fout << std::endl;
                 flag = true;
                 continue;
             }

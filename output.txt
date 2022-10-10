@@ -1,7 +1,1 @@
 
-int main() {
-
-    int a = (x)(2);
-    
-    return 0;
-}

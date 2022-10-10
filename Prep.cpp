@@ -1,13 +1,5 @@
 #include "Prep.h"
 
-int main() {
-    Prep obj;
-    std::string str = "file.txt";
-    obj.PreProc(str);
-    obj.print();
-    return 0;
-}
-
 void Prep::make_init() {
     inst["#include"] = &Prep::include;
     inst["#define"] = &Prep::define;
